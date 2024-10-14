@@ -8,14 +8,14 @@ If no processes are running and no users are logged in, the script displays a wa
 This script is designed to monitor the health of a Linux system and initiate a shutdown if no critical processes are running and there are no active users.
 
 # Usage:
-Save the script as a Bash file (e.g., process_monitor.sh).
-Make the script executable: chmod +x process_monitor.sh
-Run the script: ./process_monitor.sh
+- Save the script as a Bash file (e.g., process_monitor.sh).
+- Make the script executable: `chmod +x process_monitor.sh`
+- Run the script: `./process_monitor.sh`
 
 # Configuration:
-Process names: Adjust the process names ("FactoryServer-L", "PalServer-Linux", "java") to match the specific processes you want to monitor.
-Shutdown delay: Modify the sleep 15m command to adjust the waiting period before shutdown.
-User count: The script checks the number of logged-in users using w -h. You can customize this if needed.
+- Process names: Adjust the process names ("FactoryServer-L", "PalServer-Linux", "java") to match the specific processes you want to monitor.
+- Shutdown delay: Modify the sleep 15m command to adjust the waiting period before shutdown.
+- User count: The script checks the number of logged-in users using `w -h`. You can customize this if needed.
 
 # Notes:
 Ensure that the script has the necessary permissions to execute system commands like shutdown.
