@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# made by Vedron2
 # Function for checking the processes
 check_processes() {
   # Count the number of processes with the specified names
